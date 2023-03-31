@@ -25,7 +25,7 @@
 
 ○ Sorting order
 ■ Recently added (Newest items at the top. Default sorting)
-■ Deadline (Least time left to most time left)
+	■ Deadline (Least time left to most time left)
 ■ Recently completed items (Recently completed are shown on the top)
 
 ●   First list item
