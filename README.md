@@ -3,10 +3,10 @@
 	- Input field for description<br>
 		- Required<br>
 		- Length up to 160 symbols<br>
-- Input field for deadline<br>
-	- Optional<br>
-	- Input type is datetime-local (format YYYY-MM-DD HH:MM)<br>
-- ‘Add’ button<br>
+	- Input field for deadline<br>
+		- Optional<br>
+		- Input type is datetime-local (format YYYY-MM-DD HH:MM)<br>
+	- ‘Add’ button<br>
 	- Adds item to the list<br>
 		- Use sessionStorage to store data<br>
 	- Clears input fields<br>
