@@ -1,15 +1,15 @@
 # simzub.github.io
 * Possibility to add a new item<br>
 ○ Input field for description<br>
-  ■ Required<br>
-  ■ Length up to 160 symbols<br>
+	■ Required<br>
+	■ Length up to 160 symbols<br>
 * Input field for deadline
-		■ Optional
-		■ Input type is datetime-local (format YYYY-MM-DD HH:MM)
+	■ Optional
+	■ Input type is datetime-local (format YYYY-MM-DD HH:MM)
 * ‘Add’ button
-		■ Adds item to the list
-				● Use sessionStorage to store data
-		■ Clears input fields
+■ Adds item to the list
+● Use sessionStorage to store data
+■ Clears input fields
 
 ● Existing items list
 ○ Item in the list should have
