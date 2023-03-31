@@ -28,6 +28,6 @@
 ■ Deadline (Least time left to most time left)
 ■ Recently completed items (Recently completed are shown on the top)
 
-1.   First list item
+●   First list item
      - First nested list item
        - Second nested list item
