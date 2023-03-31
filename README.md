@@ -14,7 +14,7 @@
 * Existing items list<br>
 	- Item in the list should have<br>
 		- Description<br>
-		- Time left till deadli<br>ne (show days, hours and minutes left)<br>
+		- Time left till deadline (show days, hours and minutes left)<br>
 		- ‘Delete’ button<br>
 			- Shows confirm popup window<br>
 			- When confirmed removes item from the list completely<br>
