@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do application</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon" /> -->
+  </head>
+  <body>
+    <main>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <div class="modal-style">
+      <p>Are you certain about deleting this task?</p>
+      <button id="button-delete-confirm" >Delete</button>      
+    </div>
+  </div>
+
+</div>
+      <div class="wrapper">
+        <div class="container">
+          <h1>New Task</h1>
+          <form class="new-task">
+            <div class="input-container">
+              <label class="label-text" for="description">Description:</label>
+              <input type="text" id="description" placeholder="Type here" required  maxlength="160"/>
+            </div>
+            <div class="input-container">
+              <label class="label-text" for="date">Deadline date:</label>
+              <input id="date" type="datetime-local" />
+            </div>
+            <button type="submit" id="submit-button">Add</button>
+          </form>
+        </div>
+        <div class="container">
+          <h1>Todo List</h1>
+          <div class="group-buttons">
+            <button id="recently-added" class="sort-button active">Recently added</button>
+            <button id="deadline" class="sort-button">Deadline</button>
+            <button id="recently-completed" class="sort-button">Recently completed items</button>
+          </div>
+          <div id="todo-list">
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

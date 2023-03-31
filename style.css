@@ -1,0 +1,185 @@
+body {
+  font-family: sans-serif;
+  background-color: #e0f4e3;
+}
+textarea {
+  resize: none;
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid rgba(18, 79, 139, 0.15);
+}
+h1 {
+  font-size: 20px;
+  margin-top: 0;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container {
+  background-color: #a2dfaa;
+  width: 30%;
+  min-width: 150px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.new-task {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 8px 32px 8px 32px;
+  width: fit-content;
+  background-color: #83d48e;
+  border: 1px solid rgba(18, 79, 139, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+button:hover {
+  background-color: #64ca71;
+}
+
+.input-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+#description {
+  font-family: sans-serif;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(18, 79, 139, 0.15);
+}
+
+#date {
+  font-family: sans-serif;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid rgba(18, 79, 139, 0.15);
+}
+
+.label-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.sort-button {
+  font-size: 14px;
+  padding: 6px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #64ca71;
+}
+
+input[type='checkbox']:checked + p {
+  color: black;
+  text-decoration: line-through;
+}
+
+.group-buttons {
+  margin-bottom: 10px;
+}
+
+.button-delete {
+  font-size: 14px;
+  padding: 6px;
+  height: fit-content;
+  background-color: lightpink;
+}
+
+.button-delete:hover {
+  background-color: red;
+}
+
+.list-p {
+  padding-right: 8px;
+}
+
+/* Modal */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  border-radius: 10px;
+  border: 1px solid #888;
+  padding: 0 20px 0 20px;
+  width: 160px; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  color: #aaa;
+  right: 6px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 4px 0 20px 0;
+  text-align: center;
+}
+
+#button-delete-confirm {
+  font-size: 14px;
+  padding: 6px;
+  height: fit-content;
+  background-color: lightpink;
+}
+
+#button-delete-confirm:hover {
+  background-color: red;
+}
