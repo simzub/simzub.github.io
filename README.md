@@ -9,7 +9,7 @@
 * ‘Add’ button<br>
 	- Adds item to the list<br>
 		- Use sessionStorage to store data<br>
--	- Clears input fields<br>
+	- Clears input fields<br>
 
 * Existing items list<br>
 	- Item in the list should have<br>
