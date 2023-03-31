@@ -1,8 +1,8 @@
 # simzub.github.io
 * Possibility to add a new item<br>
 ○ Input field for description<br>
-		■ Required<br>
-		■ Length up to 160 symbols<br>
+  ■ Required<br>
+  ■ Length up to 160 symbols<br>
 * Input field for deadline
 		■ Optional
 		■ Input type is datetime-local (format YYYY-MM-DD HH:MM)
@@ -28,3 +28,6 @@
 ■ Deadline (Least time left to most time left)
 ■ Recently completed items (Recently completed are shown on the top)
 
+1.   First list item
+     - First nested list item
+       - Second nested list item
