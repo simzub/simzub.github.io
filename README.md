@@ -1,17 +1,17 @@
 # simzub.github.io
-* Possibility to add a new item<br>
+- Possibility to add a new item<br>
 	- Input field for description<br>
 		- Required<br>
 		- Length up to 160 symbols<br>
-* Input field for deadline<br>
+- Input field for deadline<br>
 	- Optional<br>
 	- Input type is datetime-local (format YYYY-MM-DD HH:MM)<br>
-* ‘Add’ button<br>
+- ‘Add’ button<br>
 	- Adds item to the list<br>
 		- Use sessionStorage to store data<br>
 	- Clears input fields<br>
 
-* Existing items list<br>
+- Existing items list<br>
 	- Item in the list should have<br>
 		- Description<br>
 		- Time left till deadline (show days, hours and minutes left)<br>
