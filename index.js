@@ -152,10 +152,12 @@ const showList = (sortId) => {
       // if (sortId === 'recently-added') {
 
       return `<div key=${index} class="list-item">
-            <input type="checkbox"  ${data.isChecked ? 'checked' : null}>
-            <p class="list-p">${data.description}</p>
-            <p class="list-p"> ${data.deadline ? answer : ''}</p>
-            <button id="button-delete" class="button-delete">Delete</button/>
+                <input type="checkbox"  ${data.isChecked ? 'checked' : null}>
+                <div class="list-item-text ${data.isChecked ? 'checked' : ''}">
+                  <p class="list-p">${data.description}</p>
+                  <p class="list-p"> ${data.deadline ? answer : ''}</p>
+                </div>
+                <button id="button-delete" class="button-delete">Delete</button/>
           </div>`;
     })
     .join('');

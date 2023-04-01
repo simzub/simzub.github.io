@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #e0f4e3;
+  background-color: #fafafa;
 }
 textarea {
   resize: none;
@@ -25,11 +25,13 @@ h1 {
 }
 
 .container {
-  background-color: #a2dfaa;
-  width: 30%;
-  min-width: 150px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   border-radius: 10px;
   padding: 20px;
 }
@@ -38,23 +40,23 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
 }
 
 button {
   font-size: 16px;
-  font-weight: 400;
-  padding: 8px 32px 8px 32px;
+  font-weight: 500;
+  padding: 12px 32px;
   width: fit-content;
-  background-color: #83d48e;
-  border: 1px solid rgba(18, 79, 139, 0.15);
+  background-color: #2e2e58;
+  color: white;
   border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   cursor: pointer;
-  transition-duration: 0.3s;
+  transition: 0.3s background-color;
 }
 button:hover {
-  background-color: #64ca71;
+  background-color: #171738;
 }
 
 .input-container {
@@ -93,14 +95,19 @@ button:hover {
 
 .list-item {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-top: 1px solid #64ca71;
+  border-top: 1px solid #171738;
+  gap: 16px;
+}
+.list-item-text {
+  flex-grow: 1;
+  width: 0;
+  word-wrap: break-word;
+  text-align: start;
 }
 
-input[type='checkbox']:checked + p {
-  color: black;
+.checked {
   text-decoration: line-through;
 }
 
@@ -112,15 +119,11 @@ input[type='checkbox']:checked + p {
   font-size: 14px;
   padding: 6px;
   height: fit-content;
-  background-color: lightpink;
+  background-color: #db5461;
 }
 
 .button-delete:hover {
   background-color: red;
-}
-
-.list-p {
-  padding-right: 8px;
 }
 
 /* Modal */
@@ -177,7 +180,7 @@ input[type='checkbox']:checked + p {
   font-size: 14px;
   padding: 6px;
   height: fit-content;
-  background-color: lightpink;
+  background-color: #db5461;
 }
 
 #button-delete-confirm:hover {
